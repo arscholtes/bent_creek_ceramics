@@ -1,0 +1,108 @@
+/*font-family: 'Merriweather', serif;*/
+
+/*font-family: 'Roboto', sans-serif;*/
+
+header, a {
+  display: flex;
+  width: 100%;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  text-decoration: underline;
+  color: #2B2F26;
+}
+h1, h2 {
+  border-collapse: collapse;
+  margin: 0px;
+  font-family: 'Merriweather', serif;
+  padding-bottom: 15px;
+}
+nav {
+  justify-content: space-between;
+  border-bottom: solid lightgrey 3px;
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+}
+.main_navagation {
+  width: 100%;
+  align-items: center;
+}
+img {
+  align-self: left;
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-collapse: collapse;
+  margin-top: 150px;
+  margin-left: 22%;
+  margin-right: 22%;
+  height: 500px;
+}
+h1 {
+  font-size: 40px;
+  color: #2B2F26;
+  padding-top: 48px;
+
+}
+h2 {
+  font-size: 25px;
+  color: #2B2F26;
+  padding-top: 20px;
+
+}
+input {
+  background-color: transparent;
+  border: 0pt solid white;
+  width: 80%;
+  margin-top: 60px;
+  margin-left: 2.5%;
+  flex-wrap: wrap;
+}
+.submit {
+  border: 2px solid #968772;
+  background-color: #968772;
+  color: #F2F1E8;
+  font-size: 20px;
+  padding: 8px;
+  width: 150px;
+  height: 75px;
+  margin-left: 42%;
+  margin-top: 60px;
+}
+form {
+  border-bottom:  #968772 3px solid;
+  width: 95%;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 10px;
+  color: darkgrey;
+}
+a {
+  display:flex;
+  flex-flow: row;
+  text-decoration: underline;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 200px;
+}
+.logo{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+body {
+  text-align: center;
+  background-image: url(background-2.jpg);
+  font-family: 'Merriweather', serif;
+  color: #2B2F26;
+  font-size: 25pt;
+  margin: 0%;
+}
+a:nth-child(4) {
+  color: #968772;
+}
+.sub_form{
+  margin: 15px;
+}
